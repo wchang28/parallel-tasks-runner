@@ -1,0 +1,19 @@
+{
+  "name": "parallel-tasks-runner",
+  "version": "1.0.0",
+  "description": "Parallel Tasks Runner",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "node ./js/app.js"
+  },
+  "author": "Wen Chang",
+  "license": "MIT",
+  "dependencies": {
+    "@types/lodash": "^4.14.106",
+    "@types/node": "^9.6.5",
+    "lodash": "^4.17.5",
+    "tree-kill": "^1.2.0",
+    "typescript": "^2.8.1"
+  }
+}
